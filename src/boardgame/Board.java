@@ -15,7 +15,7 @@ public class Board {
         pieces = new Piece[rows][columns];
     }
     //SOBRE OS GET'S E SET'S: NÃO FAZ SENTIDO TER OS SET'S DA LINHA E COLUNA POIS NÃO É NECESSÁRIO MUDAR O TAMANHO DO TABULEIRO
-    public int getRow() {
+    public int getRows() {
         return rows;
     }
 
